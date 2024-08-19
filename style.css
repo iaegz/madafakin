@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?cs=srgb&dl=pexels-eberhardgross-1287142.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    overflow-y: scroll; /* Asegura que se pueda hacer scroll vertical */
+}
+
+.container {
+    text-align: center;
+    padding-top: 100px;
+    min-height: 100vh; /* Asegura que la altura mínima sea 100% de la ventana */
+    box-sizing: border-box; /* Incluye el padding en el cálculo de altura */
+}
+
+h1 {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.image {
+    max-width: 50%; /* Tamaño de la imagen reducido */
+    height: auto;
+    margin-top: 20px;
+}
+
+.message {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#game-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    display: none; /* Oculta el iframe ya que la música está en autoplay */
+}
+
+.star {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    pointer-events: none;
+}
